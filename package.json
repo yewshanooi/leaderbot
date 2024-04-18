@@ -1,0 +1,24 @@
+{
+    "name": "leaderbot",
+    "version": "1.0.0",
+    "description": "A Discord bot with points to increase productivity",
+    "main": "index.js",
+    "author": "Ooi Yew Shan",
+    "repository": "github:yewshanooi/leaderbot",
+    "homepage": "https://github.com/yewshanooi/leaderbot",
+    "bugs": "https://github.com/yewshanooi/leaderbot/issues",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": ">=20.9.0"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "discord.js": "^14.14.1",
+        "dotenv": "^16.3.1",
+        "mongodb": "^6.3.0",
+        "mongoose": "^8.0.1"
+    }
+}
